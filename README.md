@@ -18,9 +18,9 @@ Commands for finding specific code, function calls, or potential issues directly
 <p><em>Use <code>-B 2</code> for 2 lines Before the match.</em><br>
 <em>Use <code>-C 2</code> for 2 lines of Context (before and after).</em></p>
 </td>
-<td valign="top" width="370" align="center">
+<td valign="center" width="370" align="center">
 <strong>Sample:</strong><br>
-<img src="assets/grep.png" alt="Ejemplo de Grep" width="350"/>
+<img src="assets/grep.png" alt="Grep" width="350"/>
 </td>
 </tr>
 </table>
@@ -41,9 +41,9 @@ Commands for checking memory leaks and runtime errors.
 <pre><code>cc -g main.c static_library.a -o your_program</code></pre>
 
 </td>
-<td valign="top" width="370" align="center">
+<td valign="center" width="370" align="center">
 <strong>Sample:</strong><br>
-<img src="assets/grep.png" alt="Ejemplo de Grep" width="350"/>
+<img src="assets/valgrind.png" alt="Valgrind" width="350"/>
 </td>
 </tr>
 </table>
