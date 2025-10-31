@@ -38,7 +38,7 @@ Commands for checking memory leaks and runtime errors.
 
 <p> <strong> Valgrind</strong> is the gold standard for memory debugging on Linux. It checks for all types of memory issues and provides a full report. </p>
 
-<pre><code>valgrind --leak-check=full ./your_program</code></pre>
+<pre><code>valgrind --leak-check=full --show-leak-kinds=all ./your_program</code></pre>
 
 </td>
 <td valign="center" width="370" align="center">
